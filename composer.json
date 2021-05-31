@@ -1,0 +1,32 @@
+{
+    "name": "mughal/fast-push",
+    "description": "this send push for fcm to fast",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Ahmed",
+            "email": "alia47157ali@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Alideveloper49\\FastPush\\" : "src/"
+        },
+        "files" : [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alideveloper49\\FastPush\\FastPushServiceProvider"
+            ]
+        },
+        "aliases": {
+            "Calculator": "Alideveloper49\\FastPush\\Facades\\Calculator"
+        }
+    }
+}
