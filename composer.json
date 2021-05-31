@@ -1,17 +1,14 @@
 {
-    "name": "Alideveloper49/laravel-SPF",
-    "description": "this send push for fcm to fast",
-    "type": "library",
+    "name": "alideveloper49/laravel-spf",
     "license": "MIT",
     "authors": [
         {
             "name": "Ali Ahmed",
-            "email": "alia47157ali@gmail.com"
+            "email": "alia47157ali@gamil.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-         "php" : "^5.6|^7.0|^8.0",
+        "php": "^5.6|^7.0|^8.0",
         "illuminate/support": "^5.1|^6.0|^7.0|^8.0"
     },
     "autoload" : {
@@ -29,7 +26,7 @@
             ]
         },
         "aliases": {
-            "Calculator": "Alideveloper49\\FastPush\\Facades\\Calculator"
+            "FastPush": "Alideveloper49\\FastPush\\Facades\\FastPush"
         }
     }
 }
