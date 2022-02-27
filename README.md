@@ -5,7 +5,7 @@
 > You can pull the package via composer 
 
 ```bash
-$ composer require Alideveloper49/laravel-SPF
+$ composer require Alideveloper49/laravel-spf
 ```
 
 ## Next, You must publish the config file to define your FCM server key :
